@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ActivityGenerator />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ActivityGenerator from './components/ActivityGenerator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ActivityGenerator
   }
 }
 </script>
